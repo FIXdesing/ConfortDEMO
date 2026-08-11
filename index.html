@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Confort Clinic — Estética y cuidado en Nápoles</title>
+<meta name="description" content="Confort Clinic, Nápoles CDMX. Propuesta demostrativa de una experiencia digital para una clínica estética contemporánea.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#inicio">Saltar al contenido</a>
+
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a href="#inicio" class="nav-logo" aria-label="Confort Clinic, inicio">Confort<span>Clinic</span></a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#inicio" class="nav-link" data-nav>Inicio</a>
+      <a href="#clinica" class="nav-link" data-nav>Clínica</a>
+      <a href="#servicios" class="nav-link" data-nav>Servicios</a>
+      <a href="#ubicacion" class="nav-link" data-nav>Ubicación</a>
+    </nav>
+    <a href="#ubicacion" class="nav-cta">Agendar valoración</a>
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Navegación móvil">
+      <a href="#inicio" data-nav data-mobile>01 — Inicio</a>
+      <a href="#clinica" data-nav data-mobile>02 — Clínica</a>
+      <a href="#servicios" data-nav data-mobile>03 — Servicios</a>
+      <a href="#ubicacion" data-nav data-mobile>04 — Ubicación</a>
+    </nav>
+    <a href="#ubicacion" class="mobile-cta" data-mobile>Agendar valoración</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <p class="hero-vertical" aria-hidden="true">NÁPOLES — CIUDAD DE MÉXICO</p>
+    <div class="hero-grid">
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow">Confort Clinic · 01</p>
+        <h1 class="hero-title">La técnica se vuelve invisible.<br>El resultado, <em>evidente</em>.</h1>
+        <p class="hero-sub">Una propuesta de atención estética construida alrededor de la precisión, la naturalidad y una experiencia que empieza mucho antes de la sesión.</p>
+        <div class="hero-actions">
+          <a href="#ubicacion" class="btn btn-primary">Agendar valoración</a>
+          <a href="https://www.instagram.com/confortclinic/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">Ver en Instagram <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+      <div class="hero-frame" data-reveal>
+        <div class="frame-bracket">
+          <img src="comfort-hero.jpg" alt="Procedimiento estético facial realizado con guantes clínicos en ambiente de baja luz" loading="eager">
+        </div>
+        <p class="frame-caption">Ejecución guiada · sesión facial</p>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true"><span class="scroll-line"></span><span class="scroll-label">Desplázate</span></div>
+  </section>
+
+  <section class="clinica" id="clinica">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Confort Clinic · 02</p>
+      <h2 class="section-title">Una clínica pensada en detalle,<br>no en fórmula.</h2>
+    </div>
+    <div class="clinica-grid">
+      <div class="clinica-image" data-reveal>
+        <div class="frame-bracket frame-bracket--small">
+          <img src="comfort-space.jpg" alt="Espacio interior de estética premium en tonos cálidos" loading="lazy">
+        </div>
+      </div>
+      <div class="clinica-text" data-reveal>
+        <p class="body-lg">Cada decisión parte de una lectura cuidadosa de lo que busca cada persona. La intención es acompañar el proceso con claridad, criterio y una estética que se sienta propia, nunca impuesta.</p>
+      </div>
+      <ul class="attributes" data-reveal>
+        <li class="attribute"><span class="attribute-mark"></span><div><h3>Atención con criterio</h3><p>Una experiencia demostrativa pensada para escuchar antes de proponer.</p></div></li>
+        <li class="attribute"><span class="attribute-mark"></span><div><h3>Precisión estética</h3><p>Propuestas enfocadas en proporción, equilibrio y naturalidad visual.</p></div></li>
+        <li class="attribute"><span class="attribute-mark"></span><div><h3>Un espacio que acompaña</h3><p>El entorno también forma parte de la experiencia: sobrio, cálido y cuidado.</p></div></li>
+      </ul>
+      <div class="clinica-detail" data-reveal>
+        <div class="detail-image frame-bracket frame-bracket--micro">
+          <img src="comfort-interior.jpg" alt="Detalle de un espacio clínico contemporáneo con madera y mobiliario" loading="lazy">
+        </div>
+        <span class="detail-index">DETALLE · 02</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Confort Clinic · 03</p>
+      <div class="services-heading-row">
+        <h2 class="section-title">Cuatro procedimientos,<br>un mismo criterio.</h2>
+        <div class="services-reference frame-bracket frame-bracket--micro" aria-hidden="true"><img src="comfort-medical.jpg" alt="" loading="lazy"></div>
+      </div>
+      <p class="section-note">Selección demostrativa de tratamientos, presentada únicamente como parte de esta propuesta.</p>
+    </div>
+
+    <div class="servicios-grid">
+      <article class="service service--a" data-reveal>
+        <div class="service-media"><div class="frame-bracket"><img src="comfort-treatment.jpg" alt="Aplicación de sérum con gotero sobre la piel durante un tratamiento facial" loading="lazy"></div></div>
+        <div class="service-info"><span class="service-num">01</span><h3>Rinomodelación</h3><p>Una propuesta demostrativa enfocada en armonizar el perfil y mantener una lectura natural del rostro.</p></div>
+      </article>
+      <article class="service service--b" data-reveal>
+        <div class="service-info"><span class="service-num">02</span><h3>Endolift</h3><p>Una referencia demostrativa de tratamiento orientado a mejorar la definición y apariencia de la piel.</p></div>
+        <div class="service-media service-media--small"><div class="frame-bracket frame-bracket--small"><img src="comfort-detail.jpg" alt="Cabina de tratamiento estético con cama y madera clara" loading="lazy"></div></div>
+      </article>
+      <article class="service service--c" data-reveal>
+        <div class="service-info"><span class="service-num">03</span><h3>Contorno facial</h3><p>Definición visual de líneas y volumen a partir de una propuesta personalizada y equilibrada.</p></div>
+      </article>
+      <article class="service service--d" data-reveal>
+        <div class="service-info"><span class="service-num">04</span><h3>Cuidado facial</h3><p>Propuesta demostrativa adaptada a la textura, condición y objetivo estético de cada sesión.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="cierre" id="ubicacion">
+    <div class="cierre-content">
+      <div class="cierre-cta" data-reveal>
+        <p class="eyebrow">Confort Clinic · 04</p>
+        <h2 class="section-title">El primer paso<br>es una conversación.</h2>
+        <p class="body-lg">Cuéntanos qué te gustaría explorar. Esta propuesta muestra cómo podría convertirse el primer contacto en una experiencia más clara y cuidada.</p>
+        <div class="closing-actions">
+          <a href="https://wa.me/525587654321?text=Hola%2C%20vi%20la%20propuesta%20de%20Confort%20Clinic%20y%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n.%20Mensaje%20de%20demostraci%C3%B3n." target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-primary--light">Escribir por WhatsApp</a>
+          <a href="https://www.instagram.com/confortclinic/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-ghost--light">Instagram <svg class="icon-arrow" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19L19 5M19 5H8M19 5V16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </div>
+      </div>
+      <ul class="contact-list" data-reveal>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21C12 21 5 14.5 5 9.8C5 5.9 8.1 3 12 3C15.9 3 19 5.9 19 9.8C19 14.5 12 21 12 21Z" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="9.5" r="2.2" stroke="currentColor" stroke-width="1.3"/></svg><div><span class="contact-label">Ubicación <em>(demostrativa)</em></span><span class="contact-value">Av. Nápoles 123, Col. Nápoles, Benito Juárez, CDMX</span></div></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 5.5C4 4.7 4.7 4 5.5 4H8L9.5 8L7.5 9.5C8.3 11.5 9.9 13.1 11.9 13.9L13.4 12L17.4 13.4V16C17.4 16.8 16.7 17.5 15.9 17.5C10.3 17.4 4.6 11.7 4 5.5Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg><div><span class="contact-label">Teléfono <em>(demo)</em></span><a class="contact-value" href="tel:+525512345678">+52 55 1234 5678</a></div></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="1.2" stroke="currentColor" stroke-width="1.3"/><path d="M4 6.5L12 12.5L20 6.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg><div><span class="contact-label">Correo <em>(demo)</em></span><a class="contact-value" href="mailto:correoEjemplo@gmail.com">correoEjemplo@gmail.com</a></div></li>
+        <li><svg class="icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" stroke="currentColor" stroke-width="1.3"/><circle cx="12" cy="12" r="3.4" stroke="currentColor" stroke-width="1.3"/><circle cx="16.4" cy="7.6" r="0.9" fill="currentColor"/></svg><div><span class="contact-label">Instagram</span><a class="contact-value" href="https://www.instagram.com/confortclinic/" target="_blank" rel="noopener noreferrer">@confortclinic</a></div></li>
+      </ul>
+    </div>
+    <footer class="site-footer">
+      <p class="footer-demo-note">Contenido presentado con fines demostrativos para esta propuesta.</p>
+      <div class="footer-row"><span class="footer-logo">Confort<span>Clinic</span></span><span class="footer-legal">© 2026 Confort Clinic — Nápoles, CDMX. Propuesta de diseño digital.</span></div>
+    </footer>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
